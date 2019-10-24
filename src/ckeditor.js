@@ -16,6 +16,7 @@ import Subscript from '@ckeditor/ckeditor5-basic-styles/src/subscript';
 import Superscript from '@ckeditor/ckeditor5-basic-styles/src/superscript';
 import BlockQuote from '@ckeditor/ckeditor5-block-quote/src/blockquote';
 import Heading from '@ckeditor/ckeditor5-heading/src/heading';
+import Indent from '@ckeditor/ckeditor5-indent/src/indent';
 import Link from '@ckeditor/ckeditor5-link/src/link';
 import List from '@ckeditor/ckeditor5-list/src/list';
 import Alignment from '@ckeditor/ckeditor5-alignment/src/alignment';
@@ -41,6 +42,7 @@ ClassicEditor.builtinPlugins = [
 	Subscript,
 	BlockQuote,
 	Heading,
+	Indent,
 	Link,
 	List,
 	Alignment,
@@ -69,6 +71,9 @@ ClassicEditor.defaultConfig = {
 			'bulletedList',
 			'numberedList',
 			'alignment',
+			'|',
+			'indent',
+			'outdent',
 			'|',
 			'blockQuote',
 			'insertTable',
