@@ -37,6 +37,7 @@
     "@ckeditor/ckeditor5-essentials": "^15.0.0",
     "@ckeditor/ckeditor5-heading": "^15.0.0",
     "@ckeditor/ckeditor5-indent": "^15.0.0",
+    "@ckeditor/ckeditor5-katex": "ms-29/ckeditor5-katex",
     "@ckeditor/ckeditor5-link": "^15.0.0",
     "@ckeditor/ckeditor5-list": "^15.0.0",
     "@ckeditor/ckeditor5-media-embed": "^15.0.0",
