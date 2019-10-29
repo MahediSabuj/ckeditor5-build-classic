@@ -28,7 +28,6 @@ import Table from '@ckeditor/ckeditor5-table/src/table';
 import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
 import Mention from '@ckeditor/ckeditor5-mention/src/mention';
 import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformation';
-import Katex from '@ckeditor/ckeditor5-katex/src/katex';
 
 export default class ClassicEditor extends ClassicEditorBase {}
 
@@ -55,8 +54,7 @@ ClassicEditor.builtinPlugins = [
 	Table,
 	TableToolbar,
 	Mention,
-	TextTransformation,
-	Katex
+	TextTransformation
 ];
 
 // Editor configuration.
@@ -70,7 +68,6 @@ ClassicEditor.defaultConfig = {
 			'underline',
 			'superscript',
 			'subscript',
-			'katex',
 			'|',
 			'link',
 			'bulletedList',
